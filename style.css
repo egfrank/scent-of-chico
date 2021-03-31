@@ -1,0 +1,144 @@
+body {
+  background-color: #F8F9F9;
+}
+
+.logo-container {
+  color: black;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+}
+
+#logo {
+  height: 50px;
+}
+
+#logo-text{
+  font-size: 48px;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("banner.png");
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.banner-text {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 48px;
+}
+.banner p {
+  font-size: 18px;
+}
+
+
+.footer {
+/*  background-repeat: repeat-x;
+  background-image: url("floral.jpeg");
+*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid black;
+}
+
+
+.footer-nav {
+  margin: 0px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.footer-nav-link {
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+
+}
+
+
+.form-and-video-section {
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+
+.form-container {
+  margin-top: 16px;
+}
+
+.product-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.product {
+  margin: 24px;
+}
+
+.product-img {
+  width: 300px;
+  border: 6px solid white;  
+  margin: 12px;
+  text-align: center;
+}
+
+.product-caption {
+  text-align: center;
+}
+
+.video-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#video {
+}
+
+#submit {
+  display: inline;
+  border: none;
+  width: 128px;
+  background-color: inherit;
+  font-size: 18px
+}
+
+#email {
+  display: inline;
+  width: 320px;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: inherit;
+  font-size: 18px
+}
+
+
+
